@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frameshift-transformations.onrender.com/sitemap.xml
