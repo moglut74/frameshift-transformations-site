@@ -1,0 +1,45 @@
+# Secrets & environment files
+.env
+.env.*
+*.env
+key.env
+
+# Root screenshots, QA captures & local images
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+
+# Root helper & automation scripts
+/*.py
+/*.ps1
+
+# Local upload packages, social branding & analysis outputs
+Gumroad_Upload_Package/
+Instagram_Reels_Package/
+social_branding/
+rea_analysis*/
+
+# Internal production notes
+/FRAMESHIFT_*.md
+
+# Untracked preview production renders, audio scratch & publishing screenshots
+previews/BALCONY_*
+previews/FrameShift_Balcony_RUST_TO_RETREAT_thumb.jpg
+previews/_frameshift-production-audio/voice-detailed-*.mp3
+previews/floor_explainers/
+previews/pool_*.jpg
+previews/publishing_desktop_check.jpg
+previews/thumb_*.png
+previews/youtube_*.jpg
+previews/*.ass
+previews/*.json
+
+# Logs, temp files, caches & OS artifacts
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
