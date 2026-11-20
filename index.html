@@ -1,35 +1,466 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142d25"><title>FrameShift Transformations — Reimagine Your Space</title><meta name="description" content="Cinematic AI renovation concepts, interior design inspiration and practical makeover planning guides. Download the free Space Makeover Checklist."><meta property="og:title" content="FrameShift Transformations | Reimagine Your Space"><meta property="og:description" content="Before-and-after AI renovation inspiration, narrated building stages and practical planning guides."><meta property="og:type" content="website"><meta property="og:url" content="https://frameshift-transformations.onrender.com/"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://images.unsplash.com"><style>
-:root{--cream:#f5f2eb;--forest:#16382e;--ink:#182b25;--muted:#6b786f;--gold:#ceb38a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:15px/1.6 Inter,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--cream)}a{text-decoration:none;color:inherit}a:focus-visible{outline:3px solid #b8915b;outline-offset:4px}.wrap{max-width:1180px;margin:auto;padding:0 27px}.serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.04em}.overline{font-size:11px;font-weight:750;letter-spacing:.22em;text-transform:uppercase;color:#a07e52}.btn{display:inline-block;padding:16px 24px;border-radius:2px;font-weight:750;font-size:13px;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.btn.gold{background:#e9d5b2;color:#163027}.btn.line{border:1px solid #ffffffa3;color:#fff}.btn.forest{background:var(--forest);color:#fff}.btn.lightline{border:1px solid var(--forest);color:var(--forest)}
-header{position:absolute;inset:0 0 auto;z-index:3;border-bottom:1px solid #ffffff43;color:white}.navigation{height:82px;display:flex;align-items:center;justify-content:space-between}.logo{display:flex;align-items:center;gap:13px;font-size:14px;line-height:1.2;letter-spacing:.11em;font-weight:850}.mark{width:38px;height:38px;border:1px solid #e4ceb2;display:grid;place-items:center;font:26px Georgia,serif;transform:rotate(-10deg)}.mark span{transform:rotate(10deg)}.logo small{font-size:9px;letter-spacing:.22em;font-weight:500}.navlinks{display:flex;gap:25px;align-items:center;font-size:13px;font-weight:650}.navlinks a:last-child{border:1px solid #ffffff80;padding:9px 15px}.navlinks a:hover{color:#efcea1}
-.hero{position:relative;min-height:750px;display:flex;align-items:center;background:linear-gradient(90deg,#0b1b16eb,#12251fcc 47%,#12251f36),url("/assets/hero-architecture.jpg") center/cover;color:white}.hero .wrap{width:100%;padding-top:118px;padding-bottom:105px}.hero .badge{display:inline-block;border:1px solid #e9d9c480;padding:7px 12px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.hero h1{font-size:clamp(62px,8vw,110px);line-height:.99;max-width:840px;margin:30px 0 26px}.hero h1 em{color:#dbc7a5;font-weight:400}.hero p{color:#e3e9e2;max-width:530px;font-size:17px;line-height:1.8;margin:0 0 34px}.buttons{display:flex;gap:14px;flex-wrap:wrap}.heronote{position:absolute;bottom:29px;left:0;right:0;color:#d3dbd0;letter-spacing:.13em;text-transform:uppercase;font-size:10px}
-.section{padding:100px 0}.split{display:grid;grid-template-columns:1fr 1.08fr;gap:90px}.section h2{font-size:clamp(38px,4.5vw,62px);line-height:1.13;margin:16px 0 25px}.bodycopy{color:#627066;font-size:16px;line-height:1.85}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:35px}.values div{border-top:1px solid #b9c4b7;padding-top:15px;font-size:12px;color:#748078}.values strong{display:block;color:#213c32;font-size:13px;margin-bottom:7px}
-.projects{background:#e9e8e1}.heading{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:35px}.heading p{max-width:300px;color:#647368;font-size:14px}.cards{display:grid;grid-template-columns:1.3fr 1fr;gap:20px}.photo{min-height:490px;background:#31483b;position:relative;overflow:hidden;color:white}.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}.photo:hover img{transform:scale(1.04)}.photo:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,#071510c9)}.tag{position:absolute;z-index:1;top:22px;left:22px;border:1px solid #ffffffb2;padding:7px 11px;letter-spacing:.12em;text-transform:uppercase;font-size:10px}.caption{position:absolute;bottom:20px;left:24px;right:24px;z-index:1}.caption h3{font-size:38px;line-height:1.1;margin:0 0 9px}.caption p{font-size:13px;max-width:410px;color:#e4ece4}
-.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:35px}.stage{background:#eaebe4;border-top:2px solid #355749;padding:25px 18px;min-height:230px}.stage b{font:36px Georgia,serif;color:#b09165}.stage h3{font-size:14px;margin:22px 0 10px}.stage p{font-size:12px;line-height:1.75;color:#65786a}
-.library{background:#173329;color:#f9f6ee}.library h2{color:#fff}.library .heading p{color:#bccbbd}.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.offer{border:1px solid #66807477;padding:28px;min-height:310px;display:flex;flex-direction:column;background:#ffffff07}.offer .overline{color:#e3c59a}.offer h3{font:30px/1.14 Georgia,serif;letter-spacing:-.03em;margin:27px 0 13px}.offer p{color:#c2d2c5;font-size:13px;line-height:1.7}.offer .bottom{margin-top:auto;padding-top:17px;border-top:1px solid #ffffff45;display:flex;justify-content:space-between;gap:8px;font-size:13px}.offer a{color:#ead2ac;font-weight:800}.footnote{font-size:11px;line-height:1.75;color:#bbcabf;margin-top:30px}
-.join{background:#ded6c6;text-align:center}.join h2{max-width:750px;margin:15px auto 20px}.join p{max-width:600px;margin:0 auto 30px;color:#5c675c;font-size:15px}footer{background:#10241b;color:#d3dcd2;padding:46px 0}footer .bar{display:flex;align-items:center;justify-content:space-between;gap:30px}footer .links{display:flex;flex-wrap:wrap;gap:22px;font-size:12px}footer p{font-size:11px;color:#9aaba0;max-width:900px;margin-top:22px}footer .copy{margin-top:10px}
-@media(max-width:850px){.split,.cards{grid-template-columns:1fr;gap:25px}.stages{grid-template-columns:repeat(2,1fr)}.offers{grid-template-columns:1fr}.offer{min-height:240px}.navlinks a:not(:last-child){display:none}.heading{display:block}.heading p{max-width:700px}.section{padding:75px 0}footer .bar{align-items:start;flex-direction:column}}@media(max-width:540px){.wrap{padding:0 21px}.hero{min-height:730px}.hero h1{font-size:clamp(54px,13vw,75px)}.hero p{font-size:15px}.buttons .btn{width:100%;text-align:center}.values,.stages{grid-template-columns:1fr}.photo{min-height:370px}.stage{min-height:160px}.caption h3{font-size:32px}.navigation{height:73px}.logo{font-size:11px}.navlinks a:last-child{font-size:11px;padding:8px}.hero .wrap{padding-top:125px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.photo img{transition:none}}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#142d25">
+<title>FrameShift Transformations — Reimagine Your Space</title>
+<meta name="description" content="Cinematic AI renovation concepts, interior design inspiration and 6 practical makeover planning guides on Gumroad. Download the free Space Makeover Checklist.">
+<meta property="og:title" content="FrameShift Transformations | Reimagine Your Space">
+<meta property="og:description" content="Before-and-after AI renovation inspiration, narrated building stages and 6 practical homeowner planning guides.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://frameshift-transformations.onrender.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --cream:#f5f2eb;
+  --paper:#fbfaf6;
+  --forest:#16382e;
+  --forest-deep:#0f251e;
+  --ink:#182b25;
+  --muted:#4a5c52;
+  --gold:#ceb38a;
+  --gold-soft:#ead7b7;
+  --border-light:#d8dfd5;
+  --border-dark:rgba(214,227,218,.22);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+::selection{background:var(--forest);color:#f9f6ee}
+body{margin:0;font:16px/1.6 Inter,"Segoe UI",system-ui,Arial,sans-serif;color:var(--ink);background:var(--cream)}
+a{text-decoration:none;color:inherit;touch-action:manipulation}
+a:focus-visible,button:focus-visible{outline:3px solid #d5b482;outline-offset:3px;border-radius:2px}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--gold-soft);color:var(--forest-deep);padding:12px 18px;font-weight:700;z-index:100}
+.skip-link:focus{left:12px;top:12px}
+.wrap{max-width:1180px;margin:auto;padding:0 24px}
+.serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.035em;text-wrap:balance}
+.overline{font-size:11px;font-weight:750;letter-spacing:.2em;text-transform:uppercase;color:#85653b}
+.num{font-variant-numeric:tabular-nums}
+.icon{width:15px;height:15px;display:inline-block;vertical-align:-2px;flex:0 0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:13px 22px;border-radius:2px;font-weight:750;font-size:14px;line-height:1.2;transition:transform .18s ease,background-color .18s ease,border-color .18s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:var(--gold-soft);color:#122921}
+.btn.gold:hover{background:#f3e4ca}
+.btn.line{border:1px solid rgba(255,255,255,.72);color:#fff}
+.btn.line:hover{background:rgba(255,255,255,.08)}
+.btn.forest{background:var(--forest);color:#fff}
+.btn.forest:hover{background:#1f4c3f}
+.btn.lightline{border:1px solid var(--forest);color:var(--forest)}
+.btn.lightline:hover{background:rgba(22,56,46,.06)}
 
-.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}.project-card{background:#fff;border-radius:2px;overflow:hidden;box-shadow:0 10px 20px #15291b12}.project-card img{display:block;width:100%;aspect-ratio:8/5;object-fit:cover}.project-card .copy-area{padding:24px}.project-card h3{font:29px/1.2 Georgia,serif;margin:10px 0}.project-card p{font-size:13px;line-height:1.7;color:#50645a}.project-card a.cta{display:inline-block;color:#1c493a;font-weight:800;margin-top:9px}.offers.four{grid-template-columns:repeat(4,1fr)}.offer .bottom{align-items:center}.offer .bottom a:hover{text-decoration:underline}.offer .bottom .status{opacity:.84;font-size:11px}.guideintro{background:#ecefe7;border-left:4px solid #ad8d62;padding:18px 22px;max-width:880px;color:#34483e;font-size:13px;line-height:1.75;margin:24px 0}.smalllinks{font-size:12px;margin-top:12px}.smalllinks a{text-decoration:underline}
-@media(max-width:1020px){.project-grid{grid-template-columns:repeat(2,1fr)}.offers.four{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.project-grid,.offers.four{grid-template-columns:1fr}}
-</style></head><body>
-<header><div class="wrap navigation"><a href="#home" class="logo"><span class="mark"><span>F</span></span><span>FRAMESHIFT<br><small>TRANSFORMATIONS</small></span></a><nav class="navlinks" aria-label="Primary"><a href="#transformations">Transformations</a><a href="#method">Our approach</a><a href="#guides">Design guides</a><a href="#newsletter">Newsletter</a><a href="/guides.html">Free guides</a><a href="https://www.youtube.com/@FrameShiftTransformations" target="_blank" rel="noopener">YouTube ↗</a></nav></div></header>
-<main id="home"><section class="hero"><div class="wrap"><span class="badge">Architecture / Interiors / Reimagined</span><h1 class="serif">Every space<br>has a <em>second story.</em></h1><p>From forgotten corners to extraordinary places. Cinematic AI renovation concepts, considered interior design and practical planning resources.</p><div class="buttons"><a class="btn gold" href="/checklist.html">Get the free makeover checklist ↗</a><a class="btn line" href="#transformations">Explore transformations ↗</a></div></div><div class="heronote wrap">FrameShift Transformations · AI design concepts</div></section>
-<section class="section"><div class="wrap split"><div><span class="overline">Our philosophy</span><h2 class="serif">Beautiful design.<br>Considered detail.</h2></div><div><p class="bodycopy">We see potential in the overlooked. Our AI-assisted visual stories explore what an ageing balcony, neglected room or ordinary backyard could become—and reveal the design decisions, materials and planning considerations behind that vision.</p><div class="values"><div><strong>Cinematic stories</strong>Progressive, narrated transformations.</div><div><strong>Design with purpose</strong>Layouts, colour, light and materials.</div><div><strong>Useful resources</strong>Planning checklists and practical guides.</div></div></div></div></section>
-<section class="section projects" id="transformations"><div class="wrap"><div class="heading"><div><span class="overline">Real rooms. Imagined transformations.</span><h2 class="serif">See what each<br>space could be.</h2></div><p>Before-and-after visualizations inspired by actual rooms and construction ideas. Each concept connects to a practical homeowner planning guide.</p></div>
-<div class="project-grid">
-<article class="project-card"><img src="/assets/frameshift-balcony-before-after.jpg" alt="Balcony before and AI visualization of a furnished coffee retreat" loading="lazy"><div class="copy-area"><span class="overline">01 / Balcony</span><h3>Rust to retreat</h3><p>A compact, weathered balcony reimagined as a bright coffee corner. Explore railing, drainage, waterproofing and finish questions to discuss with contractors.</p><a class="cta" href="https://youtube.com/shorts/vD_0wp79G6U" target="_blank" rel="noopener">Watch transformation ↗</a><div class="smalllinks"><a href="/guides/balcony-terrace-planning-guide.pdf" download>Download planning guide (PDF)</a></div></div></article>
-<article class="project-card"><img src="/assets/frameshift-pool-before-after.jpg" alt="Backyard before and AI swimming-pool concept after" loading="lazy"><div class="copy-area"><span class="overline">02 / Backyard</span><h3>From yard to poolside</h3><p>Explore the pool concept, then plan professional feasibility, barriers, water systems, construction scope and commissioning.</p><a class="cta" href="https://youtube.com/shorts/iyUgYt6JvtQ" target="_blank" rel="noopener">Watch transformation ↗</a><div class="smalllinks"><a href="/guides/backyard-pool-planning-guide.pdf" download>Download planning guide (PDF)</a></div></div></article>
-<article class="project-card"><img src="/assets/frameshift-bedroom-before-after.jpg" alt="Real pink bedroom and AI design concept in a calmer palette" loading="lazy"><div class="copy-area"><span class="overline">03 / Bedroom</span><h3>Pink to peaceful</h3><p>A real apartment bedroom with existing floor tiles and AC retained, reimagined with new finishes, storage, lighting and soft furnishings.</p><a class="cta" href="https://youtube.com/shorts/wH_9hDD8VFI" target="_blank" rel="noopener">Watch transformation ↗</a><div class="smalllinks"><a href="/guides/bedroom-makeover-planning-guide.pdf" download>Download planning guide (PDF)</a></div></div></article>
-</div><div class="guideintro"><strong>What you are seeing:</strong> AI-assisted design visualizations, not evidence of construction actually completed. Safety, drainage, structural, electrical and pool systems require qualified local assessment. The guides are planning questions and checklists—not engineering specifications.</div></div></section>
-<section class="section" id="method"><div class="wrap"><div class="heading"><div><span class="overline">How we work</span><h2 class="serif">More than an<br>after picture.</h2></div><p>Clear, educational storytelling with construction stages, materials and design choices.</p></div><div class="stages"><div class="stage"><b>01</b><h3>Read the room</h3><p>Explore what exists, the purpose of the space and constraints that matter.</p></div><div class="stage"><b>02</b><h3>Design the possibilities</h3><p>Develop layouts, styling, material palettes and a coherent final vision.</p></div><div class="stage"><b>03</b><h3>Show the sequence</h3><p>Illustrate renovation stages with informative narration and visible labels.</p></div><div class="stage"><b>04</b><h3>Make planning useful</h3><p>Translate inspiration into clear checklists and questions for qualified trades.</p></div></div></div></section>
-<section class="section library" id="guides"><div class="wrap"><div class="heading"><div><span class="overline">The FrameShift design library</span><h2 class="serif">Turn inspiration<br>into a plan.</h2></div><p>Four actual downloadable PDFs. Start with a free checklist or choose a topic-specific planning workbook.</p></div>
-<div class="offers four">
-<article class="offer"><span class="overline">Free · Available</span><h3>Makeover Starter Checklist</h3><p>Record existing measurements, priorities, goals, budget allowances and contractor questions before you begin.</p><div class="bottom"><span>FREE</span><a href="https://frameshift05.gumroad.com/l/vlcyt" target="_blank" rel="noopener">Gumroad ↗</a></div><div class="smalllinks"><a href="/FrameShift_Space_Makeover_Starter_Checklist.pdf" download>Free direct PDF</a></div></article>
-<article class="offer"><span class="overline">Planning guide · Available</span><h3>Balcony &amp; Terrace</h3><p>Condition survey, guardrail and anchor questions, moisture and drainage planning, exterior finishes and contractor handover.</p><div class="bottom"><span>8-page PDF</span><a href="/guides/balcony-terrace-planning-guide.pdf" download>Download guide ↗</a></div></article>
-<article class="offer"><span class="overline">Planning guide · Available</span><h3>Backyard Pool</h3><p>Feasibility, permits, soil checks, water safety, contractor scope, utility systems and commissioning.</p><div class="bottom"><span>8-page PDF</span><a href="/guides/backyard-pool-planning-guide.pdf" download>Download guide ↗</a></div></article>
-<article class="offer"><span class="overline">Planning guide · Available</span><h3>Bedroom Makeover</h3><p>A real-room checklist for floor plans, existing AC, wall preparation, wardrobe fit, lighting, indoor-air protection and handover.</p><div class="bottom"><span>8-page PDF</span><a href="/guides/bedroom-makeover-planning-guide.pdf" download>Download guide ↗</a></div></article>
-</div><p class="footnote">These homeowner resources are educational planning tools, not certified engineering plans, building-code approvals or authorisation for regulated work. Follow local requirements and qualified professional advice. Additional product releases may later be listed on <a href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener" style="text-decoration:underline">FrameShift's Gumroad store</a>.</p><p class="smalllinks"><a href="/guides.html" style="text-decoration:underline">Explore the planning guide collection and source notes ↗</a></p></div></section>
-<section class="section" id="newsletter" style="background:#e7e9e2"><div class="wrap split"><div><span class="overline">Notes from the studio</span><h2 class="serif">A fresh perspective,<br>delivered to your inbox.</h2><p class="bodycopy">Get updates about newly published transformations, practical planning guides, design trends and material-selection advice. No generic renovation spam.</p></div><div style="align-self:center;background:#f7f7f1;padding:36px;border-top:3px solid #1c4639"><span class="overline">Free updates</span><h3 class="serif" style="font-size:31px;line-height:1.14;margin:15px 0">Join the FrameShift mailing list</h3><p class="bodycopy" style="font-size:14px">We collect newsletter signups through our Gumroad creator page. You'll be taken to our store, where the email subscribe form is available.</p><a class="btn forest" href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener">Subscribe on Gumroad ↗</a><p style="color:#5b6d61;font-size:11px;margin-top:16px">You can unsubscribe through Gumroad's email controls. We're not collecting email addresses on this website.</p></div></div></section><section class="section join"><div class="wrap"><span class="overline">Stay inspired</span><h2 class="serif">The next transformation<br>starts with an idea.</h2><p>Follow the cinematic renovations, discover fresh design thinking and be among the first to explore our new manuals.</p><div class="buttons" style="justify-content:center"><a class="btn forest" href="https://www.youtube.com/@FrameShiftTransformations" target="_blank" rel="noopener">Watch on YouTube ↗</a><a class="btn lightline" href="/checklist.html">Free planning checklist ↗</a></div></div></section></main>
-<footer><div class="wrap"><div class="bar"><a href="#home" class="logo"><span class="mark"><span>F</span></span><span>FRAMESHIFT<br><small>TRANSFORMATIONS</small></span></a><div class="links"><a href="#transformations">Transformations</a><a href="#guides">Guides</a><a href="https://www.youtube.com/@FrameShiftTransformations" target="_blank" rel="noopener">YouTube</a><a href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener">Gumroad</a><a href="mailto:frameshift74@gmail.com">Contact</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a></div></div><p>AI-generated renovation and architecture concepts. Not actual building-work footage. Local permits, professional assessments and regulated-trade requirements may apply to real projects. <a href="/faq.html" style="text-decoration:underline">Read our disclosures and FAQs</a>.</p><p class="copy">© 2026 FrameShift Transformations.</p></div></footer>
-</body></html>
+.bfcm-bar{background:var(--forest-deep);color:#f3ebdc;border-bottom:1px solid rgba(234,215,183,.24);font-size:13px;line-height:1.45}
+.bfcm-bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
+.bfcm-bar strong{color:var(--gold-soft)}
+.bfcm-bar .bfcm-cta{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 14px;background:var(--gold-soft);color:var(--forest-deep);font-weight:750;font-size:12px;border-radius:2px;white-space:nowrap}
+.bfcm-bar .bfcm-cta:hover{background:#f5e7cf}
+
+header{position:absolute;inset:0 0 auto;z-index:3;color:#fff}
+.nav-bar{border-bottom:1px solid rgba(255,255,255,.26)}
+.navigation{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:13px;font-size:14px;line-height:1.2;letter-spacing:.11em;font-weight:850}
+.mark{width:38px;height:38px;border:1px solid #e4ceb2;display:grid;place-items:center;font:26px Georgia,serif;transform:rotate(-10deg)}
+.mark span{transform:rotate(10deg)}
+.logo small{font-size:9px;letter-spacing:.22em;font-weight:500}
+.navlinks{display:flex;gap:22px;align-items:center;font-size:13px;font-weight:650}
+.navlinks a{padding:8px 2px}
+.navlinks a:last-child{border:1px solid rgba(255,255,255,.55);padding:9px 15px}
+.navlinks a:hover{color:#efcea1}
+
+.hero{position:relative;min-height:780px;display:flex;align-items:center;background:linear-gradient(90deg,#0b1b16ee,#12251fcc 47%,#12251f3d),url("/assets/hero-architecture.jpg") center/cover;color:#fff}
+.hero .wrap{width:100%;padding-top:164px;padding-bottom:108px}
+.hero .badge{display:inline-block;border:1px solid rgba(233,217,196,.55);padding:7px 12px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#f3e8d7}
+.hero h1{font-size:clamp(56px,8vw,106px);line-height:.99;max-width:840px;margin:26px 0 24px}
+.hero h1 em{color:#e6cfa9;font-weight:400}
+.hero p{color:#e6ede6;max-width:540px;font-size:17px;line-height:1.75;margin:0 0 32px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}
+.heronote{position:absolute;bottom:28px;left:0;right:0;color:#d6dfd4;letter-spacing:.13em;text-transform:uppercase;font-size:11px}
+
+.section{padding:96px 0}
+.split{display:grid;grid-template-columns:1fr 1.08fr;gap:80px}
+.section h2{font-size:clamp(36px,4.5vw,60px);line-height:1.12;margin:14px 0 22px}
+.bodycopy{color:var(--muted);font-size:16px;line-height:1.8}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.values div{border-top:1px solid #b9c4b7;padding-top:15px;font-size:13px;color:var(--muted)}
+.values strong{display:block;color:#1b352c;font-size:14px;margin-bottom:6px}
+
+.projects{background:#e9e8e1}
+.heading{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:34px}
+.heading p{max-width:340px;color:var(--muted);font-size:14px;margin:0}
+.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.project-card{background:#fff;border-radius:2px;overflow:hidden;border:1px solid var(--border-light);box-shadow:0 10px 24px rgba(21,41,27,.07);display:flex;flex-direction:column}
+.project-card img{display:block;width:100%;aspect-ratio:8/5;object-fit:cover}
+.project-card .copy-area{padding:24px;display:flex;flex-direction:column;flex:1}
+.project-card h3{font:28px/1.2 Georgia,serif;margin:10px 0}
+.project-card p{font-size:14px;line-height:1.68;color:var(--muted);margin:0 0 14px}
+.project-card a.cta{display:inline-flex;align-items:center;gap:6px;color:#154234;font-weight:750;min-height:40px;margin-top:auto}
+.project-card a.cta:hover{text-decoration:underline}
+.guideintro{background:#f3f4ee;border:1px solid #c9d2c7;padding:18px 22px;max-width:920px;color:#2c3f36;font-size:14px;line-height:1.7;margin:26px 0 0}
+.smalllinks{font-size:13px;margin-top:8px}
+.smalllinks a{text-decoration:underline;text-underline-offset:3px}
+
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
+.stage{background:#eaebe4;border-top:2px solid #355749;padding:24px 18px;min-height:220px}
+.stage b{font:36px Georgia,serif;color:#8e6f43}
+.stage h3{font-size:15px;margin:20px 0 10px;color:var(--ink)}
+.stage p{font-size:13px;line-height:1.7;color:var(--muted);margin:0}
+
+.library{background:#153027;color:#f9f6ee}
+.library h2{color:#fff}
+.library .overline{color:var(--gold-soft)}
+.library .heading p{color:#d1dfd4}
+
+.bfcm-panel{background:linear-gradient(135deg,#1d4336,#10261e);border:1px solid rgba(234,215,183,.38);padding:26px 28px;margin-bottom:28px;display:grid;grid-template-columns:1.35fr auto;gap:24px;align-items:center;border-radius:2px}
+.bfcm-panel h3{font:clamp(24px,2.8vw,34px)/1.18 Georgia,serif;color:#fff;margin:0 0 10px}
+.bfcm-panel p{margin:0;color:#dce7df;font-size:15px;line-height:1.68;max-width:66ch}
+.bfcm-meta{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;font-size:13px;color:var(--gold-soft);font-weight:600}
+.bfcm-actions{display:flex;flex-direction:column;gap:10px;align-items:stretch;min-width:230px}
+
+.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.offer{border:1px solid var(--border-dark);padding:26px;min-height:290px;display:flex;flex-direction:column;background:rgba(255,255,255,.04);border-radius:2px;transition:border-color .18s ease,background-color .18s ease}
+.offer:hover{border-color:rgba(234,215,183,.55);background:rgba(255,255,255,.065)}
+.offer-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.offer-tag{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft)}
+.offer-price{font-size:15px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums}
+.offer h3{font:26px/1.18 Georgia,serif;letter-spacing:-.025em;margin:16px 0 11px;color:#fff}
+.offer p{color:#d2e0d6;font-size:14px;line-height:1.68;margin:0 0 20px}
+.offer .bottom{margin-top:auto;padding-top:16px;border-top:1px solid rgba(255,255,255,.18);display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}
+.offer .format{color:#c4d4c9;font-size:12px}
+.offer .buy-link{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:8px 14px;background:var(--gold-soft);color:var(--forest-deep);font-weight:800;font-size:13px;border-radius:2px}
+.offer .buy-link:hover{background:#f6e8cf}
+
+.companion-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:20px}
+.companion{border:1px solid var(--border-dark);background:rgba(15,37,30,.65);padding:24px 26px;border-radius:2px;display:flex;flex-direction:column;gap:10px}
+.companion h3{font:24px/1.2 Georgia,serif;color:#fff;margin:0}
+.companion p{color:#d2e0d6;font-size:14px;line-height:1.68;margin:0}
+.companion-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:8px}
+.companion-actions .text-link{color:var(--gold-soft);font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:3px;min-height:44px;display:inline-flex;align-items:center}
+
+.footnote{font-size:13px;line-height:1.7;color:#c9d8cd;margin-top:28px;max-width:84ch}
+.footnote a{color:var(--gold-soft);text-decoration:underline;text-underline-offset:3px}
+
+.join{background:#ded6c6;text-align:center}
+.join h2{max-width:750px;margin:14px auto 18px}
+.join p{max-width:600px;margin:0 auto 28px;color:#3f4d44;font-size:16px}
+footer{background:#10241b;color:#d6e0d6;padding:46px 0}
+footer .bar{display:flex;align-items:center;justify-content:space-between;gap:28px}
+footer .links{display:flex;flex-wrap:wrap;gap:20px;font-size:13px}
+footer .links a{padding:6px 0}
+footer .links a:hover{color:var(--gold-soft)}
+footer p{font-size:12px;color:#b2c2b8;max-width:900px;margin-top:22px;line-height:1.65}
+footer .copy{margin-top:10px}
+
+@media(max-width:1020px){
+  .project-grid,.offers{grid-template-columns:repeat(2,1fr)}
+  .bfcm-panel{grid-template-columns:1fr}
+  .bfcm-actions{flex-direction:row;flex-wrap:wrap}
+}
+@media(max-width:850px){
+  .split,.companion-grid{grid-template-columns:1fr;gap:24px}
+  .stages{grid-template-columns:repeat(2,1fr)}
+  .navlinks a:not(:last-child):not([href="/guides.html"]){display:none}
+  .heading{display:block}
+  .heading p{max-width:66ch;margin-top:10px}
+  .section{padding:72px 0}
+  footer .bar{align-items:start;flex-direction:column}
+}
+@media(max-width:620px){
+  .wrap{padding:0 18px}
+  .project-grid,.offers,.values,.stages{grid-template-columns:1fr}
+  .hero{min-height:720px}
+  .hero .wrap{padding-top:190px;padding-bottom:84px}
+  .hero h1{font-size:clamp(46px,12vw,70px)}
+  .hero p{font-size:16px}
+  .buttons .btn,.bfcm-actions .btn{width:100%}
+  .bfcm-panel{padding:22px 18px}
+  .navigation{min-height:68px}
+  .logo{font-size:12px}
+  .navlinks{gap:12px}
+  .navlinks a:last-child{font-size:12px;padding:8px 11px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .btn,.offer{transition:none}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to content</a>
+<header>
+  <div class="bfcm-bar" role="region" aria-label="Black Friday planning guides announcement">
+    <div class="wrap">
+      <span><strong>Black Friday (Nov 20–30):</strong> All 6 FrameShift renovation planning PDFs are live on Gumroad (<span class="num">$2</span> each) + Personalised AI Room Concept (<span class="num">$15</span>). Ends Mon Nov 30, 11:59 PM AST.</span>
+      <a class="bfcm-cta" href="#guides">Browse all 6 guides <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+  <div class="nav-bar">
+    <div class="wrap navigation">
+      <a href="#home" class="logo"><span class="mark"><span>F</span></span><span>FRAMESHIFT<br><small>TRANSFORMATIONS</small></span></a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="#transformations">Transformations</a>
+        <a href="#method">Our approach</a>
+        <a href="#guides">Design guides</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="/guides.html">All 6 guides</a>
+        <a href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener noreferrer">Gumroad store</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge">Architecture / Interiors / Reimagined</span>
+      <h1 class="serif">Every space<br>has a <em>second story.</em></h1>
+      <p>From forgotten corners to extraordinary places. Cinematic AI renovation concepts, considered interior design and practical homeowner planning guides.</p>
+      <div class="buttons">
+        <a class="btn gold" href="#guides">Explore all 6 planning guides <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn line" href="/checklist.html">Free makeover checklist</a>
+      </div>
+    </div>
+    <div class="heronote wrap">FrameShift Transformations · AI design concepts</div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <span class="overline">Our philosophy</span>
+        <h2 class="serif">Beautiful design.<br>Considered detail.</h2>
+      </div>
+      <div>
+        <p class="bodycopy">We see potential in the overlooked. Our AI-assisted visual stories explore what an ageing balcony, neglected room or ordinary backyard could become—and reveal the design decisions, materials and planning considerations behind that vision.</p>
+        <div class="values">
+          <div><strong>Cinematic stories</strong>Progressive, narrated transformations.</div>
+          <div><strong>Design with purpose</strong>Layouts, colour, light and materials.</div>
+          <div><strong>Useful resources</strong>Planning checklists and 6 live PDF guides.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="transformations">
+    <div class="wrap">
+      <div class="heading">
+        <div>
+          <span class="overline">Real rooms. Imagined transformations.</span>
+          <h2 class="serif">See what each<br>space could be.</h2>
+        </div>
+        <p>Before-and-after visualizations inspired by actual rooms and construction ideas. Each concept connects to a practical homeowner planning guide on Gumroad.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="/assets/frameshift-balcony-before-after.jpg" alt="Balcony before and AI visualization of a furnished coffee retreat" loading="lazy">
+          <div class="copy-area">
+            <span class="overline">01 / Balcony &amp; Terrace</span>
+            <h3>Rust to retreat</h3>
+            <p>A compact, weathered balcony reimagined as a bright outdoor retreat. Plan shade, seating, drainage, waterproofing and finish questions before quoting contractors.</p>
+            <a class="cta" href="https://youtube.com/shorts/vD_0wp79G6U" target="_blank" rel="noopener noreferrer">Watch transformation <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+            <div class="smalllinks"><a href="https://frameshift05.gumroad.com/l/frameshift-rooftop-terrace" target="_blank" rel="noopener noreferrer">Get the Rooftop Terrace Guide on Gumroad (<span class="num">$2</span>)</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="/assets/frameshift-pool-before-after.jpg" alt="Backyard before and AI swimming-pool concept after" loading="lazy">
+          <div class="copy-area">
+            <span class="overline">02 / Backyard</span>
+            <h3>From yard to poolside</h3>
+            <p>Explore the pool concept, then plan professional feasibility, barriers, water systems, decking, construction scope and commissioning.</p>
+            <a class="cta" href="https://youtube.com/shorts/iyUgYt6JvtQ" target="_blank" rel="noopener noreferrer">Watch transformation <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+            <div class="smalllinks"><a href="https://frameshift05.gumroad.com/l/frameshift-pool-build" target="_blank" rel="noopener noreferrer">Get the Backyard Pool Guide on Gumroad (<span class="num">$2</span>)</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="/assets/frameshift-bedroom-before-after.jpg" alt="Real pink bedroom and AI design concept in a calmer palette" loading="lazy">
+          <div class="copy-area">
+            <span class="overline">03 / Bedroom</span>
+            <h3>Pink to peaceful</h3>
+            <p>A real apartment bedroom with existing floor tiles and AC retained, reimagined with calm finishes, storage, lighting and soft furnishings.</p>
+            <a class="cta" href="https://youtube.com/shorts/wH_9hDD8VFI" target="_blank" rel="noopener noreferrer">Watch transformation <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+            <div class="smalllinks"><a href="https://frameshift05.gumroad.com/l/frameshift-bedroom-makeover" target="_blank" rel="noopener noreferrer">Get the Calm Bedroom Guide on Gumroad (<span class="num">$2</span>)</a></div>
+          </div>
+        </article>
+      </div>
+      <div class="guideintro"><strong>What you are seeing:</strong> Visual transformations are AI-generated design concepts, not footage of actual construction. Safety, drainage, structural, electrical and pool systems require qualified local assessment. Our guides provide homeowner planning questions and worksheets—not engineering specifications.</div>
+    </div>
+  </section>
+
+  <section class="section" id="method">
+    <div class="wrap">
+      <div class="heading">
+        <div>
+          <span class="overline">How we work</span>
+          <h2 class="serif">More than an<br>after picture.</h2>
+        </div>
+        <p>Clear, educational storytelling with construction stages, materials and design choices.</p>
+      </div>
+      <div class="stages">
+        <div class="stage"><b>01</b><h3>Read the room</h3><p>Explore what exists, the purpose of the space and constraints that matter.</p></div>
+        <div class="stage"><b>02</b><h3>Design the possibilities</h3><p>Develop layouts, styling, material palettes and a coherent final vision.</p></div>
+        <div class="stage"><b>03</b><h3>Show the sequence</h3><p>Illustrate renovation stages with informative narration and visible labels.</p></div>
+        <div class="stage"><b>04</b><h3>Make planning useful</h3><p>Translate inspiration into clear checklists and questions for qualified trades.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section library" id="guides">
+    <div class="wrap">
+      <div class="heading">
+        <div>
+          <span class="overline">The FrameShift design library</span>
+          <h2 class="serif">Turn inspiration<br>into a clear plan.</h2>
+        </div>
+        <p>All 6 renovation planning PDF guides are live for instant download on Gumroad, plus our free starter checklist and custom AI room concepts.</p>
+      </div>
+
+      <div class="bfcm-panel" role="region" aria-label="Black Friday 6-guide collection offer">
+        <div>
+          <h3 class="serif">Black Friday Renovation Planning Collection</h3>
+          <p>Before you spend thousands with a contractor, map your layout, lighting, finishes and phase questions first. Pick any individual guide for <strong class="num">$2</strong> each (<span class="num">$12</span> for all 6), or visit our Gumroad store during Black Friday (Nov 20–30) for the full collection and custom AI room concepts.</p>
+          <div class="bfcm-meta">
+            <span>6 Live PDF Guides · Instant Download</span>
+            <span>Black Friday Window: Nov 20–30, 2026 (11:59 PM AST)</span>
+          </div>
+        </div>
+        <div class="bfcm-actions">
+          <a class="btn gold" href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener noreferrer">Shop Gumroad store <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          <a class="btn line" href="/guides.html">View full guide breakdown</a>
+        </div>
+      </div>
+
+      <div class="offers">
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Outdoor Living</span><span class="offer-price">$2</span></div>
+          <h3>Cape Town Backyard Courtyard</h3>
+          <p>Outdoor flow, hardscaping zones, shelter from coastal wind, drought-wise planting and contractor brief questions.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-backyard-courtyard" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Kitchen</span><span class="offer-price">$2</span></div>
+          <h3>Modern Kitchen Renovation</h3>
+          <p>Work-triangle layout zones, cabinetry clearances, surface finishes, layered lighting and phased contractor scheduling.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-kitchen-renovation" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Terrace &amp; Balcony</span><span class="offer-price">$2</span></div>
+          <h3>Mediterranean Rooftop Terrace</h3>
+          <p>Shade pergolas, weatherproof seating, planter loads, waterproofing and drainage checks to raise with trades.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-rooftop-terrace" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Bedroom</span><span class="offer-price">$2</span></div>
+          <h3>Calm Bedroom Makeover</h3>
+          <p>Palette balance, acoustics, wardrobe storage, existing AC integration, layered lighting and final snagging handover.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-bedroom-makeover" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Pool &amp; Yard</span><span class="offer-price">$2</span></div>
+          <h3>Backyard Swimming Pool Build</h3>
+          <p>Site feasibility, permits, soil and drainage checks, pool barriers, decking materials, utilities and commissioning.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-pool-build" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+
+        <article class="offer">
+          <div class="offer-top"><span class="offer-tag">Heritage Exterior</span><span class="offer-price">$2</span></div>
+          <h3>Victorian Cottage Façade Restoration</h3>
+          <p>Period exterior detailing, paint palettes, porch joinery, moisture checks and kerb-appeal sequencing for older cottages.</p>
+          <div class="bottom">
+            <span class="format">Instant PDF · Gumroad</span>
+            <a class="buy-link" href="https://frameshift05.gumroad.com/l/frameshift-victorian-cottage" target="_blank" rel="noopener noreferrer">Get guide <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="companion-grid">
+        <article class="companion">
+          <div class="offer-top"><span class="offer-tag">Free Resource</span><span class="offer-price">FREE</span></div>
+          <h3>Space Makeover Starter Checklist</h3>
+          <p>Record measurements, priorities, budget contingencies and contractor questions before requesting quotes.</p>
+          <div class="companion-actions">
+            <a class="btn gold" href="https://frameshift05.gumroad.com/l/vlcyt" target="_blank" rel="noopener noreferrer">Get free on Gumroad</a>
+            <a class="text-link" href="/checklist.html">Open interactive web checklist</a>
+          </div>
+        </article>
+
+        <article class="companion">
+          <div class="offer-top"><span class="offer-tag">Custom Design Concept</span><span class="offer-price">$15</span></div>
+          <h3>Personalised AI Room Concept (1 Room)</h3>
+          <p>Send photos of your real room and style preferences to receive bespoke AI visual concepts to share with your designer or contractor.</p>
+          <div class="companion-actions">
+            <a class="btn gold" href="https://frameshift05.gumroad.com/l/frameshift-room-concept" target="_blank" rel="noopener noreferrer">Order 1-room concept — $15</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="footnote">These homeowner resources are educational planning tools, not certified engineering plans, building-code approvals or authorisation for regulated work. Visual transformations are AI-generated design concepts, not footage of actual construction. Follow local requirements and qualified professional advice. Browse every release on <a href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener noreferrer">FrameShift's Gumroad store</a> or view the <a href="/guides.html">full guide library</a>.</p>
+    </div>
+  </section>
+
+  <section class="section" id="newsletter" style="background:#e7e9e2">
+    <div class="wrap split">
+      <div>
+        <span class="overline">Notes from the studio</span>
+        <h2 class="serif">A fresh perspective,<br>delivered to your inbox.</h2>
+        <p class="bodycopy">Get updates about newly published transformations, practical planning guides, design trends and material-selection advice. No generic renovation spam.</p>
+      </div>
+      <div style="align-self:center;background:#f7f7f1;padding:34px;border:1px solid #d5ddd2;border-top:3px solid #1c4639">
+        <span class="overline">Free updates</span>
+        <h3 class="serif" style="font-size:30px;line-height:1.15;margin:14px 0">Join the FrameShift mailing list</h3>
+        <p class="bodycopy" style="font-size:15px">We collect newsletter signups through our Gumroad creator page. You'll be taken to our store, where the email subscribe form is available.</p>
+        <a class="btn forest" href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener noreferrer">Subscribe on Gumroad <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 11L11 5M6 5h5v5"/></svg></a>
+        <p style="color:#4a5c52;font-size:12px;margin-top:14px;margin-bottom:0">You can unsubscribe through Gumroad's email controls. We're not collecting email addresses on this website.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section join">
+    <div class="wrap">
+      <span class="overline">Stay inspired</span>
+      <h2 class="serif">The next transformation<br>starts with an idea.</h2>
+      <p>Follow the cinematic renovations, discover fresh design thinking and plan your next room with confidence.</p>
+      <div class="buttons" style="justify-content:center">
+        <a class="btn forest" href="https://www.youtube.com/@FrameShiftTransformations" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+        <a class="btn lightline" href="/guides.html">Browse all 6 guides</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="bar">
+      <a href="#home" class="logo"><span class="mark"><span>F</span></span><span>FRAMESHIFT<br><small>TRANSFORMATIONS</small></span></a>
+      <div class="links">
+        <a href="#transformations">Transformations</a>
+        <a href="/guides.html">Guides</a>
+        <a href="/checklist.html">Checklist</a>
+        <a href="https://www.youtube.com/@FrameShiftTransformations" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://frameshift05.gumroad.com/" target="_blank" rel="noopener noreferrer">Gumroad</a>
+        <a href="mailto:frameshift74@gmail.com">Contact</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="/privacy.html">Privacy</a>
+      </div>
+    </div>
+    <p>Visual transformations are AI-generated design concepts, not footage of actual construction. Local permits, professional assessments and regulated-trade requirements may apply to real projects. <a href="/faq.html" style="text-decoration:underline">Read our disclosures and FAQs</a>.</p>
+    <p class="copy">© 2026 FrameShift Transformations.</p>
+  </div>
+</footer>
+</body>
+</html>
